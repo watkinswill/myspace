@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will's Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <h1>Will's MySpace Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="profile">
+        <img src="images/profile-pic.jpg" alt="Will's Profile Picture" class="profile-pic">
+        <div class="profile-info">
+            <h2>Will</h2>
+            <p>Musician, Coder, Dreamer</p>
+            <p class="status">Current Mood: <span>Chillin'</span></p>
+        </div>
+    </section>
+
+    <section id="music">
+        <h2>My Music</h2>
+        <audio controls>
+            <source src="music/song.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section id="projects">
+        <h2>Top Projects</h2>
+        <!-- Project thumbnails and descriptions go here -->
+    </section>
+
+    <section id="comments">
+        <h2>Comments</h2>
+        <!-- Comment section goes here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Will's MySpace Portfolio</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
